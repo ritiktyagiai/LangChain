@@ -1,0 +1,17 @@
+# Learning
+
+## Setup
+
+1. Create a new venv
+- pyhton -m venev venv
+2. Activate venv check Scripts folder in venv
+- venv\Scripts\Activate or c:\Users\RitikTyagi\Documents\LangChain\venv\Scripts\Activate.ps1 
+3. Create requirements.txt
+- pip install -r requirements.txt
+4. Verify Langchain Installation via version 
+5. Setup .env with API Keys
+
+
+1. LLM >> Output: Text
+2. Chatbots >> Output: Text
+3. Embedded Systems >> Output: Vector Embedding 
