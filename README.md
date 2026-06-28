@@ -427,7 +427,7 @@ Found a bug or have an improvement? Feel free to open an issue or submit a pull 
 
 ## 🌟 Acknowledgments
 
-This learning repository is built to help developers master LangChain and LLM development. Special thanks to the LangChain community for excellent documentation and tools.
+This learning repository is built to help me to master LangChain and LLM development. Special thanks to the LangChain community for excellent documentation and tools.
 
 ---
 
