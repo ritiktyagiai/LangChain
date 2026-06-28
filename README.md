@@ -50,17 +50,21 @@ This project is a hands-on learning repository for exploring **LangChain**, a po
 
 ```
 LangChain/
-├── 1. LLM/
-│   └── gemini.py                 # Direct LLM interaction with Google Gemini
-├── 2. ChatBots/
-│   └── chat-gemini.py           # Interactive chatbot implementation
-├── 3. Embedded/
-│   ├── embed_document.py        # Document embedding generation
-│   └── embed_query.py           # Query embedding for semantic search
-├── InstalltionVerify.py          # Verify LangChain installation
-├── requirements.txt              # Project dependencies
-├── steps.txt                     # Setup instructions
-└── README.md                     # This file
+├── 1. Model/
+│   ├── 1. LLM/
+│   │   └── gemini.py                 # Direct LLM interaction with Google Gemini
+│   ├── 2. ChatBots/
+│   │   └── chat-gemini.py           # Interactive chatbot implementation
+│   ├── 3. Embedded/
+│   │   ├── embed_document.py        # Document embedding generation
+│   │   └── embed_query.py           # Query embedding for semantic search
+│   ├── InstalltionVerify.py          # Verify LangChain installation
+│   ├── requirements.txt              # Project dependencies
+│   ├── steps.txt                     # Setup instructions
+│   ├── .env                          # Environment variables (API keys)
+│   └── venv/                         # Virtual environment directory
+├── README.md                         # This file
+└── .git/                             # Git repository
 ```
 
 ### Module Overview
@@ -95,9 +99,18 @@ cd LangChain
 
 # Or simply navigate to your LangChain folder
 cd LangChain
+cd 1.\ Model
 ```
 
 ### Step 2: Create a Python Virtual Environment
+
+Navigate to the Model directory first:
+
+```bash
+cd 1.\ Model
+```
+
+Then create the virtual environment:
 
 ```bash
 # Windows
@@ -185,7 +198,7 @@ python 3.\ Embedded/embed_document.py
 
 ## 📚 Module Guide
 
-### 1. LLM Module (`1. LLM/`)
+### 1. LLM Module (`1. Model/1. LLM/`)
 
 **File:** `gemini.py`
 
@@ -208,7 +221,7 @@ print(response)
 
 ---
 
-### 2. ChatBots Module (`2. ChatBots/`)
+### 2. ChatBots Module (`1. Model/2. ChatBots/`)
 
 **File:** `chat-gemini.py`
 
@@ -232,7 +245,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro")
 
 ---
 
-### 3. Embeddings Module (`3. Embedded/`)
+### 3. Embeddings Module (`1. Model/3. Embedded/`)
 
 **Files:** 
 - `embed_document.py` - Convert documents to embeddings
