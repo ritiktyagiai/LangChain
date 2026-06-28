@@ -69,6 +69,8 @@ LangChain/
 
 ### Module Overview
 
+### 1. Model
+
 | Module | Purpose | Output |
 |--------|---------|--------|
 | **LLM** | Direct interaction with Large Language Models | Text responses |
