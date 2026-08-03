@@ -13,5 +13,5 @@
 
 
 1. LLM >> Output: Text
-2. Chatbots >> Output: Text
+2. Chatbots >> Output: Text + other info
 3. Embedded Systems >> Output: Vector Embedding 
